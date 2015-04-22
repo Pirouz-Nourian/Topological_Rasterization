@@ -1,4 +1,5 @@
 //Written by Pirouz Nourian, researcher @ TU Delft, 3D Geoinformation in 2014. The work reported here has been funded by NLeSC Big Data Analytics in the Geo-Spatial Domain project (code: 027.013.703).
+// the marching cube algorithm has been adapted from the c++ script by Paul Bourke and a VB.net code written by David Stasiuk 
 using System;
 using System.Drawing;
 using System.Collections.Generic;
@@ -464,8 +465,9 @@ namespace TUD_RasterWorks_V_0_1
         private Mesh local_cube(Point3d[] c, double[] c_v, double ts)
         {
             //marching cube algorithm
-            //adapted from the c++ script by Paul Bourke:
-            //http://paulbourke.net/geometry/polygonise/
+            //adapted from the c++ script by Paul Bourke and a VB.NET code written by David Stasiuk 
+            //http://paulbourke.net/geometry/polygonise/, http://www.grasshopper3d.com/profiles/blogs/marching-cubes-curve-wrapping-more-metaballs :
+    
 
             Int32 cubeindex = default(Int32);
             if (c_v[0] <= ts)
