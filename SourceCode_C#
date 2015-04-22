@@ -1,5 +1,5 @@
-//Code written by Pirouz Nourian, researcher at TU Delft 3D geoinformation  in 2014
-
+//Code written by Pirouz Nourian, researcher at TU Delft 3D geoinformation  in 2014, based on the algorithm described by Paul Bourke; released under a Creative Commons license. http://creativecommons.org/licenses/by/4.0/
+//http://paulbourke.net/geometry/polygonise/
 using System;
 using System.Collections.Generic;
 using System.Linq;
