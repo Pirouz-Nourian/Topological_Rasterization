@@ -1,4 +1,4 @@
-This is a repository for our legacy code on topological rasterization.
+This is a repository for our legacy code on topological rasterization and polygonization of scalar fields.
 Most legacy codes are in C#; while the new codes are in Python.
 
 * [marching_tets](https://github.com/Pirouz-Nourian/MarchingTetrahedrons)
