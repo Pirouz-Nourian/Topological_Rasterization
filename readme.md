@@ -5,3 +5,5 @@ Most legacy codes are in C#; while the new codes are in Python.
 * [raster_works](https://github.com/Pirouz-Nourian/TUD_RasterWorks_V_0.1)
 * [rasterworks.dll](https://github.com/Pirouz-Nourian/OTB_3DGIS)
 * [voxelization_and_polyhedralization](https://github.com/Pirouz-Nourian/Topological_Voxeliziation_and_Polyhedralization)
+
+![alt text](https://github.com/Pirouz-Nourian/Topological_Rasterization/blob/master/TUD_RasterWorks_V_0.1/RasterWorks.png)
